@@ -63,6 +63,7 @@ namespace resto_divisão_williams
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressInput);
             // 
             // textBox2
             // 
@@ -70,6 +71,7 @@ namespace resto_divisão_williams
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressInput);
             // 
             // label2
             // 
@@ -91,7 +93,7 @@ namespace resto_divisão_williams
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox3.BackColor = System.Drawing.SystemColors.GrayText;
             this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(239, 47);
             this.textBox3.Name = "textBox3";
