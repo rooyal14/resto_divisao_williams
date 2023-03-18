@@ -93,8 +93,9 @@ namespace resto_divisão_williams
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textBox3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBox3.Enabled = false;
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox3.Location = new System.Drawing.Point(239, 47);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);

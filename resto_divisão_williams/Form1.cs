@@ -33,7 +33,8 @@ namespace resto_divisão_williams
                 textBox2.Focus();
                 return;
             }
-                textBox3.Text = (Convert.ToDouble(textBox1.Text) % Convert.ToDouble(textBox2.Text)).ToString();
+                textBox3.Text = (Convert.ToInt32(textBox1.Text) % Convert.ToInt32(textBox2.Text)).ToString();
+                textBox3.ForeColor = System.Drawing.Color.Black;
         }
 
         
